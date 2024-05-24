@@ -1,0 +1,144 @@
+h1.bir {
+    font-family: rodchenko;
+    color: white;
+}
+
+div.top {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p.lok {
+    color: gray;
+    margin: 0;
+    height: 40px;
+}
+
+h1.sir {
+    color: white;
+}
+
+p.red {
+    color: red;
+}
+
+h1.p {
+    color: white;
+    font-family: Roboto;
+}
+
+img.location {
+    color: grey;
+    width: 20px;
+    height: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+img.call {
+    color: gray;
+    width: 20px;
+    height: 20px;
+}
+
+@font-face {
+    font-family: Libre Baskervile;
+    src: url(./LibreBaskerville-Regular.ttf)
+}
+
+@font-face {
+    font-family: rodchenko;
+    src: url(./densmore.ttf)
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./Roboto-Regular.ttf)
+}
+
+div.bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.bottom-right {
+    gap: 70px;
+}
+
+p {
+    color: grey;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+div.bottom-left img {
+    border-radius: 25px;
+
+}
+
+h1.grey {
+    color: grey;
+}
+
+img.bottom-right-img {
+    height: 500px;
+    max-width: 900px;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    height: 70px;
+    width: 176px;
+    border-style: groove;
+    border: red;
+    font-family: Roboto;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+@media only screen and (max-width: 769px) {
+    div.bottom {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    div.bottom-right-img {
+        width: 450px;
+        height: 250px;
+    }
+
+    h1 {
+        font-size: large;
+    }
+
+    p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    div.bottom {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    div.bottom-right-img {
+        width: 900px;
+    }
+}
